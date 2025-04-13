@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KAROM Alimentos - Comedores Industriales</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Progress Bar -->
+    <div class="progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">
+                <span>KAROM</span> Alimentos
+            </a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+                    <li><a href="#servicios" class="nav-link">Servicios</a></li>
+                    <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+                    <li><a href="#beneficios" class="nav-link">Beneficios</a></li>
+                    <li><a href="#contacto" class="nav-link">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <a href="#contacto" class="btn btn-outline">Contáctanos</a>
+                <a href="#contacto" class="btn btn-primary">Solicitar Información</a>
+                <button class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <ul class="mobile-nav">
+            <li><a href="#inicio" class="mobile-nav-link">Inicio</a></li>
+            <li><a href="#servicios" class="mobile-nav-link">Servicios</a></li>
+            <li><a href="#nosotros" class="mobile-nav-link">Nosotros</a></li>
+            <li><a href="#beneficios" class="mobile-nav-link">Beneficios</a></li>
+            <li><a href="#contacto" class="mobile-nav-link">Contacto</a></li>
+        </ul>
+        <div class="mobile-actions">
+            <a href="#contacto" class="btn btn-outline">Contáctanos</a>
+            <a href="#contacto" class="btn btn-primary">Solicitar Información</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Soluciones Profesionales para Comedores Industriales</h1>
+                    <p>En KAROM Alimentos ofrecemos servicios de alimentación industrial de alta calidad, con estándares profesionales y enfoque en la satisfacción de sus colaboradores.</p>
+                    <div class="hero-actions">
+                        <a href="#servicios" class="btn btn-primary">Nuestros Servicios</a>
+                        <a href="#contacto" class="btn btn-outline">Solicitar Información</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Años de experiencia</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Empresas confían en nosotros</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">98%</span>
+                            <span class="stat-label">Índice de satisfacción</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="comedor.png" alt="Comedor Industrial KAROM">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicios" class="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Nuestros Servicios</span>
+                <h2 class="section-title">Soluciones Completas para Comedores Industriales</h2>
+                <p class="section-description">Ofrecemos servicios especializados para empresas que buscan alimentar a su personal con calidad y eficiencia.</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 13.87A4 4 0 0 1 7.41 6a5.11 5.11 0 0 1 1.05-1.54a5 5 0 0 1 7.08 0A5.11 5.11 0 0 1 16.59 6 4 4 0 0 1 18 13.87V21H6Z"></path><line x1="6" x2="18" y1="17" y2="17"></line></svg>
+                    </div>
+                    <h3>Gestión de Comedores</h3>
+                    <p>Administramos su comedor corporativo con personal calificado y menús balanceados.</p>
+                    <ul class="service-features">
+                        <li>Personal capacitado y certificado</li>
+                        <li>Menús variados y nutritivos</li>
+                        <li>Control de calidad riguroso</li>
+                    </ul>
+                    <a href="#contacto" class="service-link">Más información <span>→</span></a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"></path><path d="M7 2v20"></path><path d="M21 15V2v0a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"></path></svg>
+                    </div>
+                    <h3>Alimentación Industrial</h3>
+                    <p>Preparación y distribución de alimentos para grandes volúmenes de personal.</p>
+                    <ul class="service-features">
+                        <li>Producción a escala eficiente</li>
+                        <li>Logística optimizada</li>
+                        <li>Servicio puntual garantizado</li>
+                    </ul>
+                    <a href="#contacto" class="service-link">Más información <span>→</span></a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 8h1a4 4 0 1 1 0 8h-1"></path><path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z"></path><line x1="6" x2="6" y1="2" y2="4"></line><line x1="10" x2="10" y1="2" y2="4"></line><line x1="14" x2="14" y1="2" y2="4"></line></svg>
+                    </div>
+                    <h3>Cafeterías Corporativas</h3>
+                    <p>Espacios de descanso con opciones de snacks y bebidas para momentos de pausa.</p>
+                    <ul class="service-features">
+                        <li>Ambiente agradable</li>
+                        <li>Opciones saludables</li>
+                        <li>Servicio continuo</li>
+                    </ul>
+                    <a href="#contacto" class="service-link">Más información <span>→</span></a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                    </div>
+                    <h3>Consultoría Nutricional</h3>
+                    <p>Diseño de menús balanceados según las necesidades específicas de su personal.</p>
+                    <ul class="service-features">
+                        <li>Nutriólogos profesionales</li>
+                        <li>Dietas especiales y adaptadas</li>
+                        <li>Análisis nutricional completo</li>
+                    </ul>
+                    <a href="#contacto" class="service-link">Más información <span>→</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="nosotros" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="karom.png" alt="Equipo KAROM Alimentos">
+                    <div class="about-experience">
+                        <span>10+</span>
+                        <p>Años de experiencia</p>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <span class="section-subtitle">Sobre Nosotros</span>
+                    <h2 class="section-title">Expertos en Comedores Industriales</h2>
+                    <p class="about-description">Somos una empresa especializada en la gestión de comedores industriales con más de 10 años de experiencia en el sector alimenticio. Nuestro compromiso es ofrecer alimentos de calidad que contribuyan al bienestar y productividad de los colaboradores de su empresa.</p>
+                    <ul class="about-features">
+                        <li>
+                            <div class="feature-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                            </div>
+                            <span>Personal altamente calificado y certificado</span>
+                        </li>
+                        <li>
+                            <div class="feature-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                            </div>
+                            <span>Estrictos controles de calidad e higiene</span>
+                        </li>
+                        <li>
+                            <div class="feature-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                            </div>
+                            <span>Menús variados y adaptados a cada cliente</span>
+                        </li>
+                        <li>
+                            <div class="feature-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                            </div>
+                            <span>Compromiso con la satisfacción del cliente</span>
+                        </li>
+                    </ul>
+                    <a href="#contacto" class="btn btn-primary">Conoce Nuestra Historia</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="beneficios" class="benefits">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Beneficios</span>
+                <h2 class="section-title">¿Por qué elegir KAROM Alimentos?</h2>
+                <p class="section-description">Descubra los beneficios de contar con nuestros servicios de comedores industriales y cómo podemos hacer la diferencia en su empresa.</p>
+            </div>
+
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 13.87A4 4 0 0 1 7.41 6a5.11 5.11 0 0 1 1.05-1.54a5 5 0 0 1 7.08 0A5.11 5.11 0 0 1 16.59 6 4 4 0 0 1 18 13.87V21H6Z"></path><line x1="6" x2="18" y1="17" y2="17"></line></svg>
+                    </div>
+                    <h3>Calidad Garantizada</h3>
+                    <p>Ingredientes frescos y de primera calidad en cada preparación, cumpliendo con los más altos estándares.</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                    </div>
+                    <h3>Personal Satisfecho</h3>
+                    <p>Empleados más productivos y satisfechos gracias a una alimentación balanceada y de calidad.</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                    </div>
+                    <h3>Ahorro de Tiempo</h3>
+                    <p>Optimización de tiempos de comida y mayor aprovechamiento de la jornada laboral.</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"></path></svg>
+                    </div>
+                    <h3>Mejora del Clima Laboral</h3>
+                    <p>Espacios de convivencia que fortalecen las relaciones entre colaboradores.</p>
+                </div>
+            </div>
+
+            <div class="cta-box">
+                <div class="cta-content">
+                    <h3>¿Listo para mejorar la alimentación en tu empresa?</h3>
+                    <p>Contáctanos hoy mismo y descubre cómo nuestros servicios de comedores industriales pueden beneficiar a tu empresa y colaboradores.</p>
+                </div>
+                <a href="#contacto" class="btn btn-primary">Solicitar Información</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Testimonios</span>
+                <h2 class="section-title">Lo que dicen nuestros clientes</h2>
+                <p class="section-description">Empresas que confían en nuestros servicios de alimentación industrial.</p>
+            </div>
+            <div class="testimonials-slider" id="testimonialsSlider">
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="testimonial-quote">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg>
+                        </div>
+                        <p>"KAROM Alimentos ha transformado nuestro comedor corporativo. La calidad de los alimentos y el servicio son excepcionales. Nuestros empleados están muy satisfechos."</p>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4>María Rodríguez</h4>
+                                <span>Gerente de RRHH, Empresa ABC</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="testimonial-quote">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg>
+                        </div>
+                        <p>"Desde que contratamos a KAROM, la satisfacción de nuestros colaboradores ha aumentado considerablemente. El servicio es puntual y la comida es deliciosa."</p>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4>Carlos Méndez</h4>
+                                <span>Director General, Industrias XYZ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="testimonial-quote">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg>
+                        </div>
+                        <p>"La variedad de menús y la calidad de los alimentos que ofrece KAROM es inigualable. Han superado nuestras expectativas en todos los aspectos."</p>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4>Laura Sánchez</h4>
+                                <span>Gerente de Operaciones, Grupo Industrial</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-controls">
+                <button class="testimonial-prev" id="testimonialPrev">←</button>
+                <div class="testimonial-dots" id="testimonialDots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+                <button class="testimonial-next" id="testimonialNext">→</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Preguntas Frecuentes</span>
+                <h2 class="section-title">Resolvemos tus dudas</h2>
+                <p class="section-description">Encuentra respuestas a las preguntas más comunes sobre nuestros servicios.</p>
+            </div>
+            <div class="faq-accordion" id="faqAccordion">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>¿Cómo funciona el servicio de gestión de comedores?</h3>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Nuestro servicio incluye la administración completa del comedor, desde la planificación de menús hasta la preparación y servicio de alimentos. Nos encargamos de todo el proceso, incluyendo la contratación de personal, compra de insumos y control de calidad.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>¿Pueden adaptar los menús a necesidades dietéticas específicas?</h3>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sí, contamos con nutriólogos que diseñan menús adaptados a diferentes necesidades dietéticas, como dietas bajas en sodio, sin gluten, vegetarianas, veganas, entre otras. Nos aseguramos de que todos los colaboradores tengan opciones adecuadas.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>¿Cuál es el tiempo de implementación del servicio?</h3>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>El tiempo de implementación varía según las necesidades específicas de cada empresa, pero generalmente podemos tener todo listo en un plazo de 2 a 4 semanas. Realizamos una evaluación inicial para determinar los requerimientos y planificar la implementación.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>¿Ofrecen servicios para eventos especiales dentro de la empresa?</h3>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sí, además de la gestión diaria del comedor, ofrecemos servicios de catering para eventos corporativos, reuniones, capacitaciones y celebraciones especiales. Contamos con menús especiales y opciones de servicio adaptadas a cada tipo de evento.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Contacto</span>
+                <h2 class="section-title">Solicita información</h2>
+                <p class="section-description">Estamos listos para ofrecerte la mejor solución para tu comedor industrial.</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.  stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                            </div>
+                            <div>
+                                <h4>Teléfono</h4>
+                                <p>(55) 1234-5678</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                            </div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>info@karomalimentos.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                            </div>
+                            <div>
+                                <h4>Dirección</h4>
+                                <p>Av. Insurgentes Sur 1234, Col. Del Valle, CDMX</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-map">
+                        <img src="ubicacion.png" alt="Mapa de ubicación">
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nombre</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="company">Empresa</label>
+                            <input type="text" id="company" name="company" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Teléfono</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group full-width">
+                            <label for="message">Mensaje</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <div class="form-group full-width">
+                            <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-info">
+                    <a href="#" class="footer-logo">
+                        <span>KAROM</span> Alimentos
+                    </a>
+                    <p>Soluciones gastronómicas de excelencia para empresas, con menús balanceados, nutritivos y deliciosos.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                        </a>
+                        <a href="#" class="social-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                        </a>
+                        <a href="#" class="social-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#beneficios">Beneficios</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Servicios</h3>
+                    <ul>
+                        <li><a href="#servicios">Gestión de Comedores</a></li>
+                        <li><a href="#servicios">Alimentación Industrial</a></li>
+                        <li><a href="#servicios">Cafeterías Corporativas</a></li>
+                        <li><a href="#servicios">Consultoría Nutricional</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Boletín Informativo</h3>
+                    <p>Suscríbete para recibir noticias y actualizaciones.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Tu correo electrónico" required>
+                        <button type="submit" class="btn btn-primary">Suscribirse</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 KAROM Alimentos. Todos los derechos reservados.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Política de Privacidad</a>
+                    <a href="#">Términos y Condiciones</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTop" class="scroll-to-top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
